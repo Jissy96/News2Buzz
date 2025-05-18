@@ -1,4 +1,4 @@
-# 📰✨ PostMoji
+# 📰✨ News2Buzz
 
 **AI-Powered Social Media Post Generator with Brand Tone, Bias Detection & Emoji/Sticker Personalization**
 
@@ -6,7 +6,7 @@
 
 ## 🚀 Project Overview
 
-**PostMoji** is an intelligent end-to-end platform that transforms breaking news and trending topics into branded, tone-aware, multimodal social media posts. It combines Natural Language Processing (NLP), generative AI, and data pipelines to deliver rich content (text + emojis + stickers) for platforms like Instagram, LinkedIn, X (Twitter), and more.
+**News2Buzz** is an intelligent end-to-end platform that transforms breaking news and trending topics into branded, tone-aware, multimodal social media posts. It combines Natural Language Processing (NLP), generative AI, and data pipelines to deliver rich content (text + emojis + stickers) for platforms like Instagram, LinkedIn, X (Twitter), and more.
 
 This project is developed by a 6-member student team at Loyalist College as part of Semester 4.
 
@@ -42,7 +42,7 @@ This project is developed by a 6-member student team at Loyalist College as part
 ## 📂 Project Structure
 
 ```bash
-postmoji/
+news2buzz/
 ├── backend/
 │   ├── fastapi_app/
 │   ├── services/  # Ingestor, Generator, Scheduler, etc.
