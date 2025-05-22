@@ -42,20 +42,24 @@ This project is developed by a 6-member student team at Loyalist College as part
 ## 📂 Project Structure
 
 ```bash
-news2buzz/
+News2Buzz/
+├── scraping/
+├── preprocessing/
+├── models/
+│   ├── sentiment/
+│   │   └── model_weights/
+│   ├── bias_detection/
+│   │   └── model_weights/
+│   ├── emoji_generator/
+│   └── finetune/
 ├── backend/
-│   ├── fastapi_app/
-│   ├── services/  # Ingestor, Generator, Scheduler, etc.
-│   └── models/    # ML models and utils
+│   ├── api/
+│   └── services/
 ├── frontend/
-│   ├── public/
-│   └── src/
-├── airflow_dags/
-├── notebooks/
-├── data/
-│   └── sample_news/
-├── .github/
-│   └── workflows/
-├── README.md
-└── requirements.txt
+├── database/
+├── orchestration/
+│   └── dags/
+├── utils/
+├── tests/
+
 
